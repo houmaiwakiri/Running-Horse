@@ -36,3 +36,19 @@ body{
 .moving{
     animation: moving 10s linear infinite;
 }
+
+@keyframes suspention{
+    100%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+    0%{
+        transform: translateY(0px);
+    }
+}
+
+.suspention{
+    animation: suspention 1s linear infinite;
+}
