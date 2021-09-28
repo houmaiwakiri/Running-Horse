@@ -9,7 +9,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/index.html"
+        "destination": "/Users/user/OneDrive/ドキュメント/running horse/Running-Horse/public/index.html"
       }
     ]
   }
