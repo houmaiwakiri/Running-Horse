@@ -1,5 +1,5 @@
 let rati = document.querySelector(".rati");
-let car= document.querySelector(".car")
+let car= document.querySelector(".car");
 
 addEventListener("keypress", function(x){
     if(x.which == 13){
