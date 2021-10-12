@@ -8,5 +8,7 @@ addEventListener("keypress", function(x){
     }
 })
 
+addEventListener("click")
+
 
 
