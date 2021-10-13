@@ -22,7 +22,7 @@ a{
   left: 100px;
   font-size: 30px;
   font-weight: bold;
-  box-shadow: 1px 1px 2px darkblue;
+  box-shadow: 3px 3px 5px darkblue;
   cursor: pointer;
   position: absolute;
 }
@@ -31,7 +31,19 @@ a{
   transform: translateY(4px);
   border-bottom: none;
 }
-
+#mutibtn{
+  background-color: brown;
+  padding: 10px;
+  border: 2px solid white;
+  top: 250px;
+  left: 200px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 3px 3px 5px yellow;
+  cursor: pointer;
+  position: absolute;  
+}
 .header{
     top: 10px;
     left: 10px;
@@ -69,6 +81,9 @@ a{
 }
 .moving{
     animation: moving 10s linear infinite;
+}
+.movingg{
+    animation: moving 8s linear infinite;
 }
 @keyframes suspention{
     100%{
