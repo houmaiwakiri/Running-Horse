@@ -2,16 +2,34 @@ body{
     margin: 0;
     overflow: hidden;
 }
-.list{
-  font-size: 40px;
+a{
+  text-decoration: none;
+  color: white;
+  
 }
-li{
-  list-style: none;
+.title{
+  margin-top: 40px;
+  margin-left: 40px;
+  color: white;
+  text-shadow: 2px 2px 3px darkblue;
+  font-size: 50px;
+}
+#btn{
   background-color: rgb(0, 255, 255);
   padding: 10px;
   border: 2px solid white;
+  top: 150px;
+  left: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  box-shadow: 1px 1px 2px darkblue;
   cursor: pointer;
-  display: block;
+  position: absolute;
+}
+#btn:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
 }
 
 .header{
@@ -69,12 +87,7 @@ li{
     position: absolute;
     z-index: 4;
 }
-.title{
-    top: 50px;
-    left: 100px;
-    color: green;
-    font-size: 50px;
-}
+
 
 
 
