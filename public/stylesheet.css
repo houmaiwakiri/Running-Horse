@@ -7,6 +7,7 @@ a{
   color: white;
   
 }
+
 .title{
   margin-top: 40px;
   margin-left: 40px;
@@ -44,6 +45,54 @@ a{
   cursor: pointer;
   position: absolute;  
 }
+
+.balloon2 {
+  position: relative;
+  display: inline-block;
+  margin-top: 500px;
+  margin-left: 800px;
+  min-width: 1px;
+  max-width: 100%;
+  color: #555;
+  font-size: 70px;
+  background: #FFF;
+  box-sizing: border-box;
+}
+
+.balloon2:before {
+  z-index: 1;
+}
+
+.balloon2:after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  margin-left: -17px;
+  border: 14px solid transparent;
+  border-top: 14px solid #555;
+  z-index: 2;
+}
+
+.balloon2 p {
+  margin: 0;
+  padding: 0;
+}
+
+#supbtn{
+  background-color: rgb(219, 127, 7);
+  padding: 10px;
+  border: 2px solid white;
+  top: 350px;
+  left: 200px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  box-shadow: 3px 3px 5px yellow;
+  cursor: pointer;
+  position: absolute; 
+}
+
 .header{
     top: 10px;
     left: 10px;
@@ -56,7 +105,7 @@ a{
     height: 100vh;
     position: relative;
     background-size: cover;
-    z-index: 1;
+    z-index: 2;
 }
 .rati{
     background: url("img/透明らち.png");

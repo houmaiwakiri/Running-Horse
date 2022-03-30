@@ -16,3 +16,8 @@ btn.addEventListener("click",function(y){
     }
 })
 
+
+
+document.getElementById("supbtn").onclick = function() {
+    document.getElementById("sup").innerHTML = "差せッ!!"
+}
